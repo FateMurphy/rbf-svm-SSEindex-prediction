@@ -4,13 +4,16 @@ Use RBF-SVM model to predict Shanghai Stock Exchange (SSE) Composite Index at Py
 
 #1. For Python
 ------
+(1)
 please enter your TUSHARE password or you can get a free account at https://waditu.com/document/1    
-Of course, you can also try using only part of the data provided by this project.   
+Of course, you can also try using only part of the data provided by this project:     
+`index_SSE.csv` which is the same as the data from TUSHARE.
 ```python
 import tushare as ts #Python
 ts.set_token(#################################)# enter your ts password here
 ```
 
+(2)
 For cross-validation methods, this project uses some special methods, you can refer to this website   
 http://www.zhengwenjie.net/tscv/    
 There are many initial values that need to be set at SVR part:    
